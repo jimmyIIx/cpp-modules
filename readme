@@ -1,0 +1,100 @@
+# MODULES C++
+
+Collection complète de modules C++ couvrant les concepts fondamentaux jusqu'aux fonctionnalités avancées du langage.
+
+## Module 00: Concepts de base
+**Sujets clés:** Namespaces, classes, fonctions membres, pointeur this, listes d'initialisation, const correctness
+
+Prise en main du C++ avec les concepts fondamentaux orientés objet.
+
+- **ex00** - Classes et fonctions membres basiques
+- **ex01** - Introduction au pointeur this et structures de classe
+- **ex02** - Constante, initialisation des listes, const-correctness
+
+## Module 01: Mémoire et références
+**Sujets clés:** Pointeurs, références, allocation dynamique, stack vs heap
+
+Compréhension de la gestion mémoire en C++ et différences avec la mémoire automatique.
+
+- **ex00** - Pointeurs et références
+- **ex01** - Allocation/libération mémoire, pointeurs nuls
+- **ex02** - Arithmétique de pointeurs, allocation d'arrays
+- **ex03** - Classes HumanB et HumanA avec pointeurs/références
+- **ex04** - Manipulation de fichiers avec références
+
+## Module 02: Polymorphisme ad-hoc
+**Sujets clés:** Surcharge d'opérateurs, classe de nombres fixes, surcharge de fonctions
+
+Maîtrise de la surcharge d'opérateurs et manipulation d'opérations personnalisées.
+
+- **ex00** - Surcharge d'opérateurs basique (+, -, *, /)
+- **ex01** - Classe Fixed point avec opérateurs arithmétiques
+- **ex02** - Opérateurs de comparaison et arithmétiques avancés
+- **ex03** - Algorithme BSP (Binary Space Partition) avec opérateurs
+
+## Module 03: Héritage
+**Sujets clés:** Héritage de classes, membres protégés, fonctions virtuelles, spécificateurs d'accès
+
+Concepts d'héritage simple et multiple, résolution de l'héritage en diamant.
+
+- **ex00** - Héritage basique et constructeurs
+- **ex01** - Héritage multiple et classes de base virtuelles
+- **ex02** - Classes abstraites et interfaces
+- **ex03** - Problème du diamant et héritage virtuel
+
+## Module 04: Polymorphisme
+**Sujets clés:** Fonctions virtuelles, classes abstraites, interfaces, destructeurs virtuels
+
+Polymorphisme runtime avec fonctions virtuelles et hiérarchies de classes.
+
+- **ex00** - Polymorphisme basique avec fonctions virtuelles
+- **ex01** - Classes abstraites et fonctions virtuelles pures
+- **ex02** - Comportement type interface-like en C++
+- **ex03** - Patterns d'héritage avancés
+
+## Module 05: Gestion des exceptions
+**Sujets clés:** Try-catch, exceptions personnalisées, throw, RAII
+
+Exception handling sécurisé et design patterns avec exceptions.
+
+- **ex00** - Mécanisme try-catch basique
+- **ex01** - Création de classes d'exceptions personnalisées
+- **ex02** - Scénarios complexes avec multiples exceptions
+- **ex03** - Sécurité des exceptions et RAII (Resource Acquisition Is Initialization)
+
+## Module 06: Typage et casting
+**Sujets clés:** Static cast, dynamic cast, reinterpret cast, const cast, sérialisation
+
+Conversions de types sûres et concepts de casting en C++.
+
+- **ex00** - Conversions de types basiques et implicites
+- **ex01** - Dynamic casting avec hiérarchies d'héritage
+- **ex02** - Reinterpret cast et manipulations de pointeurs
+
+## Module 07: Templates
+**Sujets clés:** Templates de fonctions, templates de classes, spécialisation, STL
+
+Programmation générique avec templates et introduction aux conteneurs STL.
+
+- **ex00** - Templates de fonctions et paramétrisation
+- **ex01** - Templates de classes et instanciation
+- **ex02** - Spécialisation de templates et conteneurs STL (vector, list)
+
+## Module 08: Conteneurs et itérateurs STL
+**Sujets clés:** Vector, list, map, set, itérateurs, algorithmes
+
+Utilisation complète de la Standard Template Library.
+
+- **ex00** - Conteneurs de base et opérations (vector, list)
+- **ex01** - Itérateurs et algorithmes STL (sort, find, etc.)
+- **ex02** - Conteneurs associatifs (map, set) et usage avancé
+
+## Module 09: Algorithmes STL et patterns avancés
+**Sujets clés:** Librairie d'algorithmes, programmation fonctionnelle, tri, recherche
+
+Patterns fonctionnels avancés et algorithmes STL.
+
+- **ex00** - Algorithmes standard (sort, find, copy, etc.)
+- **ex01** - Comparateurs personnalisés et tri avancé
+- **ex02** - Patterns STL avancés et utilisation de lambdas
+
